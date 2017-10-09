@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/home/reshma/Documents/AcadGild/Web_Fundamentals/Session-5_04Oct2017/Assignment-2/style.css">
+	<script src="/home/reshma/Documents/AcadGild/Web_Fundamentals/Session-5_04Oct2017/Assignment-2/script.js"></script>
+	<title>S-5 Assignment-2</title>
+</head>
+
+<body>
+	<!--Vowel or consonant?-->
+<form name="circle">
+	<div class=mainDiv>
+		<center><span>Enter string below to check if it's a vowel or consonant:</span></center>
+		<br>
+		<center>
+			<!-- This is where you input the string -->
+			<input type="text" name="str" id="str">
+			<!-- Cicking on this function calls your JS function by passing the string value -->
+			<input type="button" value="Vowel or Consonant?" onClick="findResult(document.getElementById('str').value)"> 
+			<br>
+			<!-- p element where result is displayed -->
+			<p id="result"></p>
+		</center>
+	</div>
+</form>
+
+</body>
+</html>
